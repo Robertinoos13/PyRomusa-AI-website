@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+}
+
+header{
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    text-align: center;
+    background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.8)), url("images/LOGO.png");
+    background-size: cover;
+}
+
+header p{
+    color: white;
+    text-shadow: 2px 2px 1px rgba(0,0,0,1);
+}
+
+header h1{
+    color: white;
+    text-shadow: 2px 2px 1px rgba(0,0,0,1);
+    font-family: "Arial";
+}
+
+/* Stiluri de bază pentru listă */
+.file-tree, .file-tree ul {
+  list-style-type: none;
+  padding-left: 20px;
+  margin: 0;
+  position: relative;
+  font-family: monospace, monospace;
+  font-size: 14px;
+}
+
+/* Liniile verticale conectoare */
+.file-tree ul::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 8px;
+  border-left: 1px dashed #ccc;
+}
+
+.file-tree li {
+  position: relative;
+  margin: 4px 0;
+  padding-left: 15px;
+}
+
+/* Liniile orizontale către fiecare element */
+.file-tree li::before {
+  content: "";
+  position: absolute;
+  top: 10px;
+  left: -12px;
+  width: 22px;
+  border-top: 1px dashed #ccc;
+}
+
+/* Ascunde linia verticală rămasă jos pentru ultimul copil */
+.file-tree li:last-child::after {
+  content: "";
+  position: absolute;
+  top: 11px;
+  bottom: 0;
+  left: -12px;
+  width: 20px;
+  background: white; /* Trebuie să se potrivească cu fundalul paginii */
+}
+
+/* Aspect legături și pictograme */
+.file-tree a {
+  text-decoration: none;
+  color: #333;
+  display: inline-block;
+  padding: 2px 5px;
+  border-radius: 3px;
+}
+
+.file-tree a:hover {
+  background-color: #e8f4ff;
+  color: #0066cc;
+}
+
+footer p{
+  text-align: center;
+  justify-content: end;
+  color: gray;
+  font-style: italic;
+}

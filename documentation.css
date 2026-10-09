@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+}
+
+header{
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    text-align: center;
+    background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.8)), url("images/LOGO.png");
+    background-size: cover;
+}
+
+header p{
+    color: white;
+    text-shadow: 2px 2px 1px rgba(0,0,0,1);
+}
+
+header h1{
+    color: white;
+    text-shadow: 2px 2px 1px rgba(0,0,0,1);
+    font-family: "Arial";
+}
+
+.main-chatbots-type-section{
+    padding-top: 10vh;
+    display: flex;
+    flex-direction: row;
+    gap: 2vh;
+    justify-content: center;
+}
+
+.main-chatbots-type-section a{
+    padding: 10px;
+    max-width: 30%;
+    min-width: 22%;
+    min-height: 15vh;
+    border: 1px solid black;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 10px 10px 4px black;
+    transition: 0.2s;
+}
+
+.main-chatbots-type-section a:hover{
+    transform: scale(0.9)
+}
+
+.main-chatbots-type-section a p{
+    font-size: 14px;
+    word-wrap: break-word;
+    font-style: italic;
+}
+
+.main-chatbots-type-section a h3{
+    font-size: 20px;
+}
+
