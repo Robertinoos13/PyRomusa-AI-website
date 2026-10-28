@@ -1,7 +1,9 @@
 # PyRomusa AI Website 🌐
-**The official website for `PyRomusa AI`, where you can find more information about this Python framework.**
+**The official website for `PyRomusa AI`, where you can find more information & links about this Python framework.**
 
-# Links 🔗
+---
+
+## Links 🔗
 
 - [Website link](https://robertinoos13.github.io/PyRomusa-AI-website/)
 
@@ -11,7 +13,7 @@
 
 ---
 
-# Contact 📞
+## Contact 📞
 
 Perhaps you’d like to suggest a new feature for `PyRomusa AI` to the creator privately, or maybe you’ve found an issue on their website or even within the framework itself. Here are all the ways you can get in touch with them.
 
